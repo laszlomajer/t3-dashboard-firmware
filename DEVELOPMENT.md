@@ -2,6 +2,8 @@
 
 This repository keeps the firmware source and the IDE project metadata for the T3 instrument electronics. PCB design files are deliberately kept local and must not be added to the public repository.
 
+Open `T3-Dashboard-Firmware.code-workspace` in VS Code to show the MSP430 CCS project, ESP32 ESP-IDF project, and legacy ESP8266 reference together. Its Git setting discovers the repository at their common parent. The workspace file contains relative folder paths and no machine-specific toolchain path.
+
 ## ESP32 — VS Code and ESP-IDF
 
 Open `T3-Dash-V4/firmware/esp32_msp430_webbsl/` as the ESP-IDF project in Visual Studio Code. Use the Espressif ESP-IDF extension and the ESP-IDF 6.x toolchain installed on the development computer. Build, flash, and monitor through the extension or its ESP-IDF terminal commands.

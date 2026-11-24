@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "MSP430G2553 (CCS)",
+      "path": "MSP430/MSP_Speed_HW_V3_SIMPLE_20261113"
+    },
+    {
+      "name": "ESP32 (ESP-IDF + FreeRTOS)",
+      "path": "T3-Dash-V4/firmware/esp32_msp430_webbsl"
+    },
+    {
+      "name": "ESP8266 (legacy reference)",
+      "path": "Korábbi ESP8266/T3_Speed_HW_V3_SW_V2_20250810_2"
+    }
+  ],
+  "settings": {
+    "git.openRepositoryInParentFolders": "always"
+  }
+}
