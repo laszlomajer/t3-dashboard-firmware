@@ -1,0 +1,6 @@
+main/wifi_credentials.h
+main/wifi_ap_config.h
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock

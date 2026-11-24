@@ -1,0 +1,48 @@
+# This repository contains the firmware projects only; ignore other workspace content.
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/ATTRIBUTION.md
+!/DEVELOPMENT.md
+!/MSP430/
+!/T3-Dash-V4/
+!/Korábbi ESP8266/
+
+# Current MSP430 CCS project: keep source and project metadata, omit generated Debug output.
+/MSP430/*
+!/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/
+/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/*
+!/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/*.c
+!/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/*.h
+!/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/*.cmd
+!/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/.ccsproject
+!/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/.cproject
+!/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/.project
+!/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/.clangd
+!/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/targetConfigs/
+!/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/targetConfigs/**
+/MSP430/MSP_Speed_HW_V3_SIMPLE_20261113/Debug/
+
+# ESP32 project only; its nested .gitignore excludes build products and local credentials.
+/T3-Dash-V4/*
+!/T3-Dash-V4/firmware/
+/T3-Dash-V4/firmware/*
+!/T3-Dash-V4/firmware/esp32_msp430_webbsl/
+
+# Earlier ESP8266 implementation, kept as a porting reference.
+/Korábbi ESP8266/*
+!/Korábbi ESP8266/T3_Speed_HW_V3_SW_V2_20250810_2/
+
+# Local IDE path points to this machine's ESP-IDF installation.
+/T3-Dash-V4/firmware/esp32_msp430_webbsl/.vscode/settings.json
+
+# PCB design data is deliberately kept outside the public firmware repository.
+/T3-Dash-V4/**/*.kicad_*
+/T3-Dash-V4/**/*.pro
+/T3-Dash-V4/**/*.sch
+/T3-Dash-V4/**/fp-info-cache
+/T3-Dash-V4/**/._*
+/T3-Dash-V4/**/gerber/
+/T3-Dash-V4/**/Gerber/
+/T3-Dash-V4/**/drill/
